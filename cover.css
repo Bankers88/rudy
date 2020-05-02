@@ -109,3 +109,61 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+html {
+   font-size: 1rem;
+}
+h1 {
+  font-size: 1.2rem;
+}
+h2 {
+  font-size: 1.1rem;
+}
+P {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.1rem;
+  }
+  h1 {
+      font-size: 1.3rem;
+  }
+  h2 {
+      font-size: 1.2rem;
+  }
+  P {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 991px) {
+    html {
+    font-size: 1.2rem;
+  }
+  h1 {
+      font-size: 1.5rem;
+  }
+  h2 {
+      font-size: 1.4rem;
+  }
+  P {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 1.2rem;
+  }
+  h1 {
+      font-size: 1.7rem;
+  }
+  h2 {
+      font-size: 1.6rem;
+  }
+  P {
+    font-size: 0.8rem;
+  }
+}
