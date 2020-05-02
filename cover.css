@@ -167,3 +167,7 @@ P {
     font-size: 0.8rem;
   }
 }
+
+.noBottomMargin {
+  margin-bottom: 0px
+}
